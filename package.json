@@ -1,0 +1,27 @@
+{
+  "name": "full-stack-open",
+  "version": "1.0.0",
+  "description": "Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolfe/full-stack-open.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coolfe/full-stack-open/issues"
+  },
+  "homepage": "https://github.com/coolfe/full-stack-open#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.1.2"
+  }
+}
