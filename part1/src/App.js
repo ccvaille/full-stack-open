@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 import Hello from "./components/Hello";
 import Counter from "./components/Counter";
 import Button from "./components/Button";
+import Exercises from "./components/exercises/index";
 import "./App.css";
 
 const App = () => {
@@ -65,6 +66,8 @@ const App = () => {
           ></Button>
         </div>
         <p>{allClicks.join(" ")}</p>
+        <p>------- Exercises --------</p>
+        <Exercises></Exercises>
       </header>
     </div>
   );
