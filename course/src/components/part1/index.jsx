@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
-import Hello from "./components/Hello";
-import Counter from "./components/Counter";
-import Button from "./components/Button";
-import Exercises from "./components/exercises/index";
-import "./App.css";
+import logo from "../../logo.svg";
+import Hello from "./Hello";
+import Counter from "./Counter";
+import Button from "./Button";
+import Exercises from "./exercises/index";
+import "../../App.css";
 
-const App = () => {
+const Part1Main = () => {
   const [num, setNum] = useState(0);
   // setTimeout(() => setNum(num + 1), 1000);
   const setToValue = (newValue) => {
@@ -29,9 +29,6 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <Hello name="coolFe"></Hello>
         <Counter counter={num}></Counter>
         <div className="btn-list">
@@ -73,4 +70,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Part1Main;

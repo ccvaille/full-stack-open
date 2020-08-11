@@ -31,7 +31,7 @@ const Anecdotes = () => {
       let maxIndex = null;
       const objKey = Object.keys(obj);
       for (let i = 0; i < objKey.length; i++) {
-        if (obj[objKey[i]] == maxValue) {
+        if (obj[objKey[i]] === maxValue) {
           maxIndex = i;
           break;
         }
