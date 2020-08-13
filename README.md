@@ -3,7 +3,7 @@ Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go!
 
 ### Content 
 - [x] Part 1 React 入门
-- [ ] Part 2 与服务端通信
+- [x] Part 2 与服务端通信
 - [ ] Part 3 用NodeJS和Express写服务端程序
 - [ ] Part 4 测试 Express 服务端程序, 以及用户管理
 - [ ] Part 5 测试 React 应用
